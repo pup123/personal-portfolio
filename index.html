@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Ruba</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+       <div class="nav-button">
+   <button class="btn" onclick="downloadCV()">
+        Download CV <i class="uil uil-file-alt"></i></button>
+    </a>
+</div>
+
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Ruba Rabie</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Experienced frontend developer with a passion for creating visually stunning
+                   and user-friendly websites.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">Hire Me</button>
+                <button class="btn" onclick="downloadCV()">Download CV <i class="uil uil-file-alt"></i></button>
+            </div>
+           <div class="social_icons">
+    <div class="icon">
+        <a href="https://www.linkedin.com/in/ruba-abogabal-0bba20205/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <i class="uil uil-linkedin-alt"></i>
+        </a>
+    </div>
+   
+    <div class="icon">
+        <a href="https://github.com/pup123" target="_blank">
+            <i class="uil uil-github-alt"></i>
+        </a>
+    </div>
+</div>
+
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="/images/backgroun.png.jpeg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>I'm a passionate Front-End Developer with a strong eye for design and detail. I specialize in building responsive, user-friendly web interfaces using modern technologies like HTML5, CSS3, JavaScript, and frameworks such as React.
+I enjoy turning complex problems into clean, intuitive, and interactive experiences. With a solid understanding of UI/UX principles and a commitment to writing clean, maintainable code, I bridge the gap between design and development to create seamless digital products.
+                    
+                    </p>
+                    <div class="about-btn">
+                        <button class="btn" onclick="downloadCV()">Download CV <i class="uil uil-import"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>vite</span>
+                        <span>Tailwind css</span>
+                    </div>
+                </div>
+               
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+  <section class="section" id="projects">
+    <div class="top-header">
+        <h1>Projects</h1>
+    </div>
+    <div class="project-container">
+        <div class="project-box">
+            <div class="image-wrapper">
+                <img src="/images/p1.PNG" alt="Todo App" class="project-img">
+                <div class="overlay">
+                    <h4 class="overlay-title">Todo App</h4>
+                    <a href="https://to-do-app-green-one.vercel.app/" class="project-link" target="_blank">
+                        <i class="uil uil-arrow-up-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-box">
+            <div class="image-wrapper">
+                <img src="/images/p2.PNG" alt="Digital Media" class="project-img">
+                <div class="overlay">
+                    <h4 class="overlay-title">Weather App</h4>
+                    <a href=" https://prodigy-wd-04-chi.vercel.app/" class="project-link" target="_blank">
+                        <i class="uil uil-arrow-up-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-box">
+            <div class="image-wrapper">
+                <img src="/images/p3.PNG" alt="Weather App" class="project-img">
+                <div class="overlay">
+                    <h4 class="overlay-title">Digital media</h4>
+                    <a href="https://digital-media-six.vercel.app/" class="project-link" target="_blank">
+                        <i class="uil uil-arrow-up-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-box">
+            <div class="image-wrapper">
+                <img src="/images/p5.PNG" alt="Weather App" class="project-img">
+                <div class="overlay">
+                    <h4 class="overlay-title">Tic Tac game</h4>
+                    <a href="https://pup123.github.io/rodigy_wd_3/" class="project-link" target="_blank">
+                        <i class="uil uil-arrow-up-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-box">
+            <div class="image-wrapper">
+                <img src="/images/p4.PNG" alt="Weather App" class="project-img">
+                <div class="overlay">
+                    <h4 class="overlay-title">Gym Nermous</h4>
+                    <a href="https://gym-app-pied-xi.vercel.app/" class="project-link" target="_blank">
+                        <i class="uil uil-arrow-up-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-box">
+            <div class="image-wrapper">
+                <img src="/images/p3.PNG" alt="Weather App" class="project-img">
+                <div class="overlay">
+                    <h4 class="overlay-title">Digital media</h4>
+                    <a href="https://digital-media-six.vercel.app/" class="project-link" target="_blank">
+                        <i class="uil uil-arrow-up-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: Robaabogabal9@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: 01063832674</p>
+                </div>
+             </div>
+             <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Name">
+                        <input type="text" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="text-area">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn">Send <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Ruba .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            
+            <div class="icon">
+        <a href="https://www.linkedin.com/in/ruba-abogabal-0bba20205/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <i class="uil uil-linkedin-alt"></i>
+        </a>
+    </div>
+   
+    <div class="icon">
+        <a href="https://github.com/pup123" target="_blank">
+            <i class="uil uil-github-alt"></i>
+        </a>
+    </div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Ruba abigabal</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="script.js"></script>
+</body>
+</html>
