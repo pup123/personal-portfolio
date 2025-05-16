@@ -31,8 +31,8 @@
     }
   function downloadCV() {
     const link = document.createElement('a');
-    link.href = '/files/cv.pdf'; // المسار الصحيح للملف
-    link.download = 'My_CV.pdf'; // اسم الملف عند التحميل
+    link.href = '/files/cv.pdf'; 
+    link.download = 'My_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

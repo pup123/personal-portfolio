@@ -31,7 +31,7 @@
 /* ----- SMOOTH SCROLL ----- */
 html{
     scroll-behavior: smooth;
-}
+}  
 
 /* ----- CHANGE THE SCROLL BAR DESIGN ----- */
 ::-webkit-scrollbar{
@@ -78,10 +78,14 @@ i{
 /* ------- BASE -------- */
 body{
     background: var(--body-color);
+    overflow-x: hidden;
+
 }
-.container{
-    width: 100%;
+    .container {
+    max-width: 100%;
     position: relative;
+    overflow-x: hidden;
+
 }
 
 /* ----- NAVIGATION BAR ----- */
@@ -250,7 +254,13 @@ a{
     width: 380px;
     height: 380px;
     object-fit: cover;
-}
+    
+} 
+/* image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+} */
 @keyframes imgFloat {
     50%{
         transform: translateY(10px);
@@ -370,6 +380,7 @@ h3{
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
+    overflow-x: hidden;
 }
 
 .project-box {
